@@ -1,7 +1,6 @@
 (defpackage #:std.sb.cl.text
   (:use :cl :std.sb.cl)
   (:export #:+whitespace-chars+
-           #:+ellipsis+
            #:whitespacep
            #:ascii-char-p
            #:upper-case-string-p

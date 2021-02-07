@@ -13,9 +13,6 @@
       #\Zero_Width_No-Break_Space))
   "The definitive whitespace album.")
 
-(define-constant +ellipsis+ "..."
-  "The default suffix for `shorten'.")
-
 (defun whitespacep (c)
   "Determine whether `c' is a whitespace character. Return T or NIL."
   (check-type c character)
